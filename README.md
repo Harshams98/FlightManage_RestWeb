@@ -1,0 +1,98 @@
+# FlightManage_RestWeb
+Users
+
+{
+    "usertype": ""
+    
+    "username": ""
+    "userpassword": "",
+    "userphone": 0,
+    "email": ""
+}
+
+
+Passenger
+
+{
+   
+    "passengername": "",
+    "passengerage": 0,
+    "passengeruin": 0,
+    "luggage": 0.0
+}
+
+Flight
+
+{
+        "flightnumber": 5,
+        "flightmodel": "",
+        "seatcapacity": 800,
+        "carriername": ""
+}
+
+Airport
+
+Insert/POST
+{
+ "airportcode": "5652s",
+    "airportname": "dfghjhgfghj",
+    "airportLocation": "Mysore"
+
+}
+
+
+PUT
+{
+
+
+"airportname":"dfghjhgfghj"
+
+
+}
+
+
+Schedule
+
+{
+       "sourceAirport": {
+           "airportcode":"5652s"
+       },
+    "destination": {
+           "airportcode":"5652s"
+       },
+    "arrivalTime": null,
+    "departureTime": null
+}
+
+
+
+shudeledFlight
+
+{
+  "flight": {
+      "flightnumber":15
+  },
+    "availableseats": 0,
+    "schedule": {
+        "scheduleId":8
+    }
+}
+
+
+Booking
+
+{
+     "userid": {
+         "userid":2
+     },
+    "bookingdate": "16-jan-2023",
+    "passengerlist": {
+        "pnrnumber":3
+    },
+    "ticketcost": 990000,
+    "flight": {
+        "flightnumber":15
+    },
+    "noofpassengers": 20
+}
+put
